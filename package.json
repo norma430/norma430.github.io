@@ -1,0 +1,22 @@
+{
+  "name": "norma-chavarria.github.io",
+  "version": "1.0.0",
+  "description": "Portafolio",
+  "main": "index.js",
+  "scripts": {
+    "script": "node-sass --watch scss -o css --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norma430/norma-chavarria.github.io.git"
+  },
+  "author": "Norma Chavarria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norma430/norma-chavarria.github.io/issues"
+  },
+  "homepage": "https://github.com/norma430/norma-chavarria.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
