@@ -4,8 +4,20 @@ header {
     color: $nav-items-color;
 }
 
-main{
+main {
     font-family: 'Dancing Script';
     font-size: 20px;
-    color: $nav-items-color;
+    color: #d1b5b5;
+}
+
+.article--text-container {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: $primary-color;
+}
+
+.article--title--container {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: #5d5050;
 }
