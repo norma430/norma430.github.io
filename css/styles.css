@@ -1,3 +1,66 @@
-h1 {
-  color: blue;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;600&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav--header {
+  padding-left: 25px;
+  display: flex;
+  flex: auto;
+  align-items: center;
+  background-color: #e8c9c9;
+}
+
+.nav--list {
+  position: static;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  background-color: #e8c9c9;
+  width: auto;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  font-size: 1em;
+  margin-right: 65px;
+  margin: 15px;
+}
+
+.nav--items {
+  padding: 0 15px;
+}
+
+.nav--itm {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  color: #746565;
+}
+
+main {
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  color: #746565;
+}
+
+.article--title {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.article--image {
+  width: 350px;
+  height: 300px;
+  margin-left: 600px;
 }
