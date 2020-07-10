@@ -1,45 +1,40 @@
 
 
 .nav  {
-    &--header {
-        padding-left: 25px;
-        display: flex;
-        flex: auto;
-        align-items: center;
-        background-color: $nav-font-color;
-     }
+    padding-left: 25px;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    background-color: $nav-font-color;
+    margin-bottom: 15px;
 
-    &--list {
-      position: static;
+    &__list {
+      position: fixed;
       left: 0;
       display: flex;
       flex-direction: row;
       align-items: center;
-      height: auto;
+      height: 120px;
       background-color: $nav-font-color;
-      width: auto;
-      padding: 0;
+      width: 100%;
+      padding-top: 55px;
       overflow: hidden;
       list-style: none;
-      font-weight: 500;
       transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
       font-size: 1em;
-      margin-right: 65px;
-      margin: 15px;
     }
 
-    &--items {
+    &__item {
       padding: 0 15px;
     }
 
-    &--itm {
-      padding: 15px;
+    &__link {
       text-decoration: none;
       color: $primary-color;
     }
 
-    &--active {
-      background-color: #E6B0AA;
-    }
-  }
+    &__underline {
+        position: relative;
+        }
+     }

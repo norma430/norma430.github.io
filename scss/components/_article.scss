@@ -1,37 +1,38 @@
  .article{
 
-      &--title {
-        margin-top: 60px;
+      &_title {
+        margin-top: 80px;
         margin-left: 150px;
       }
 
-      &--container {
+      &_container {
         display: flex;
         flex-direction: column;
       }
 
-      &--image {
+      &_image {
         width: 450px;
         height: 400px;
       }
 
-      &--image-container {
+      &_image-container {
         margin-top: 40px;
         margin-left: 450px;
+        margin-bottom: 30px;
       }
 
-      &--title--container {
+      &_title--container {
         margin-left: 450px;
         margin-top: 30px;
       }
 
-      &--text-container {
+      &_text-container {
         margin-top: 40px;
         margin-left: 480px;
         margin-bottom: 40px;
       }
 
-      &--text {
+      &_text {
         width: 450px;
         text-align: justify;
       }
