@@ -67,3 +67,146 @@ main {
   font-size: 30px;
   color: #5d5050;
 }
+
+.article_information-title {
+  font-family: 'EB Garamond', serif;
+  font-size: 30px;
+  color: #5d5050;
+}
+
+.article_email-information--paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_text-email {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_text-email {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_phone-information--paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_phone-resp {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_address-information--paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_text-address {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.article_title {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-bottom: 80px;
+}
+
+.article_information {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+
+.article_information-title {
+  margin-left: 550px;
+  margin-right: 10px;
+}
+
+.article_information-image {
+  height: 45px;
+  width: 45px;
+}
+
+.article_email {
+  margin-left: 460px;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.article_email-container {
+  margin-right: 10px;
+}
+
+.article_email-container-img {
+  height: 45px;
+  width: 45px;
+}
+
+.article_email-information {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.article_email-resp {
+  margin-top: 10px;
+}
+
+.article_phone {
+  margin-left: 460px;
+  flex-direction: row;
+  display: flex;
+}
+
+.article_phone-container {
+  margin-right: 10px;
+}
+
+.article_phone-container-img {
+  height: 45px;
+  width: 45px;
+}
+
+.article_phone-information {
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.article_phone-resp {
+  margin-top: 10px;
+}
+
+.article_address {
+  margin-left: 460px;
+  flex-direction: row;
+  display: flex;
+}
+
+.article_address-container {
+  margin-right: 10px;
+}
+
+.article_address-container-img {
+  height: 45px;
+  width: 45px;
+}
+
+.article_address-information {
+  margin-top: 10px;
+  margin-right: 95px;
+}
+
+.article_address-resp {
+  margin-top: 10px;
+}
