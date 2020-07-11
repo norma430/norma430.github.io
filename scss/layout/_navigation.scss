@@ -7,6 +7,7 @@
     align-items: center;
     background-color: $nav-font-color;
     margin-bottom: 15px;
+    justify-content: space-between;
 
     &__list {
       position: fixed;
@@ -36,8 +37,8 @@
 
     &__underline {
         position: relative;
-        }
-     }
+    }
+  }
 
      @media screen and (max-width: 800px) {
 
