@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;600&display=swap');
+@import 'abstract/variables';
+@import 'base/reset';
+@import 'layout/navigation';
+@import 'base/typograhpy';
+
+  .article {
+
+      &_title {
+        margin-top: 80px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+      }
+
+     &_information {
+       display: flex;
+       flex-direction: row;
+       margin-bottom: 70px;
+
+       &-title {
+         margin-left: 600px;
+         margin-right: 10px;
+       }
+
+       &-image {
+         height: 45px;
+         width: 45px;
+       }
+     }
+     &_info {
+       margin-left: 450px;
+
+       &-container {
+         width: 500px;
+         text-align: justify;
+     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .article {
+
+        &_title {
+          margin-top: 90px;
+          margin-left: 55px;
+          margin-bottom: 60px;
+        }
+
+       &_information {
+         margin-bottom: 50px;
+
+         &-title {
+           margin-left: 100px;
+           margin-right: 5px;
+         }
+       }
+       &_info {
+         margin-left: 30px;
+
+         &-container {
+           width: 300px;
+       }
+    }
+  }
+}

@@ -267,79 +267,42 @@ main {
   width: 45px;
 }
 
-.article_email {
-  margin-left: 460px;
-  flex-direction: row;
+.article_info {
   display: flex;
-  margin-bottom: 20px;
-}
-
-.article_email-container {
-  margin-right: 10px;
-}
-
-.article_email-container-img {
-  height: 45px;
-  width: 45px;
-}
-
-.article_email-information {
-  margin-top: 10px;
-  margin-right: 20px;
-}
-
-.article_email-resp {
-  margin-top: 10px;
-}
-
-.article_phone {
-  margin-left: 460px;
   flex-direction: row;
+  margin-bottom: 60px;
+  margin-left: 120px;
+}
+
+.article_info-ano {
+  margin-left: 250px;
+}
+
+.article_info-ins {
+  margin-left: 150px;
+}
+
+.article_info-gra {
+  margin-left: 170px;
+}
+
+.article_paragraph {
   display: flex;
-  margin-bottom: 20px;
-}
-
-.article_phone-container {
-  margin-right: 10px;
-}
-
-.article_phone-container-img {
-  height: 45px;
-  width: 45px;
-}
-
-.article_phone-information {
-  margin-top: 10px;
-  margin-right: 100px;
-}
-
-.article_phone-resp {
-  margin-top: 10px;
-}
-
-.article_address {
-  margin-left: 460px;
   flex-direction: row;
-  display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-left: 120px;
 }
 
-.article_address-container {
-  margin-right: 10px;
+.article_paragraph-ano {
+  margin-left: 250px;
 }
 
-.article_address-container-img {
-  height: 45px;
-  width: 45px;
+.article_paragraph-ins {
+  margin-left: 150px;
 }
 
-.article_address-information {
-  margin-top: 10px;
-  margin-right: 95px;
-}
-
-.article_address-resp {
-  margin-top: 10px;
+.article_paragraph-gra {
+  margin-left: 110px;
 }
 
 @media screen and (max-width: 800px) {
@@ -349,34 +312,39 @@ main {
     margin-bottom: 40px;
   }
   .article_information {
+    flex-direction: row;
     margin-bottom: 50px;
   }
   .article_information-title {
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .article_info {
+    flex-direction: column;
+    margin-bottom: 40px;
     margin-left: 20px;
-    margin-right: 5px;
   }
-  .article_email {
-    margin-left: 30px;
+  .article_info-ano {
+    margin-left: 10px;
+  }
+  .article_info-ins {
+    margin-left: 80px;
+  }
+  .article_info-gra {
+    margin-left: 80px;
+  }
+  .article_paragraph {
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-left: 20px;
   }
-  .article_email-container {
-    margin-right: 5px;
+  .article_paragraph-ano {
+    margin-left: 10px;
   }
-  .article_phone {
-    margin-left: 30px;
-    flex-direction: column;
-    margin-bottom: 50px;
+  .article_paragraph-ins {
+    margin-left: 80px;
   }
-  .article_phone-container {
-    margin-right: 5px;
-  }
-  .article_address {
-    margin-left: 30px;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  .article_address-container {
-    margin-right: 5px;
+  .article_paragraph-gra {
+    margin-left: 80px;
   }
 }
