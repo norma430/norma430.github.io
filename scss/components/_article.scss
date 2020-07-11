@@ -21,7 +21,7 @@
         margin-bottom: 30px;
       }
 
-      &_title--container {
+      &_title-container {
         margin-left: 450px;
         margin-top: 30px;
       }
@@ -36,4 +36,40 @@
         width: 450px;
         text-align: justify;
       }
+    }
+
+    @media screen and (max-width: 800px) {
+      .article{
+
+           &_title {
+             margin-top: 75px;
+             margin-left: 45px;
+           }
+
+           &_image {
+             width: 250px;
+             height: 200px;
+           }
+
+           &_image-container {
+             margin-top: 40px;
+             margin-left: 60px;
+             margin-bottom: 20px;
+           }
+
+           &_title-container {
+             margin-left: 30px;
+             margin-top: 20px;
+             align-items: center;
+           }
+
+           &_text-container {
+             margin-left: 40px;
+             margin-bottom: 40px;
+           }
+
+           &_text {
+             width: 280px;
+           }
+         }
     }

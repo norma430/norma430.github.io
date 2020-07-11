@@ -38,3 +38,28 @@
         position: relative;
         }
      }
+
+     @media screen and (max-width: 800px) {
+
+       .nav  {
+           padding-left: 25px;
+           display: flex;
+           flex: auto;
+           align-items: center;
+           background-color: $nav-font-color;
+           margin-bottom: 15px;
+
+           &__list {
+             font-size: .8em;
+           }
+
+           &__item {
+             padding: 0 10px;
+           }
+
+           &__link {
+             text-decoration: none;
+             color: $primary-color;
+           }
+        }
+     }

@@ -16,7 +16,7 @@ main {
     color: $primary-color;
 }
 
-.article_title--container {
+.article_title-container {
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     color: #5d5050;
@@ -65,6 +65,60 @@ main {
 }
 
 .article_text-address {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_info-ano-container {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_info-ins-paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_info-gra-bach {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_paragraph-ano-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_paragraph-ins-paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_paragraph-gra-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_ult-ano-paragraph {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_ult-paragraph-info {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.article_info-ult-paragraph {
   font-family: 'EB Garamond', serif;
   font-size: 20px;
   color: $primary-color;

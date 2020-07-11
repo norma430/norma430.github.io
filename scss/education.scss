@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;600&display=swap');
+@import 'abstract/variables';
+@import 'base/reset';
+@import 'layout/navigation';
+@import 'base/typograhpy';
+
+.article {
+
+    &_title {
+      margin-top: 80px;
+      margin-left: 150px;
+      margin-bottom: 80px;
+    }
+
+   &_information {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 70px;
+
+     &-title {
+       margin-left: 550px;
+       margin-right: 10px;
+     }
+
+     &-image {
+       height: 45px;
+       width: 45px;
+     }
+   }
+
+   &_info {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 40px;
+     &-ano {
+       &-container {
+         margin-left: 250px;
+
+       }
+     }
+
+     &-ins {
+       margin-left: 150px;
+     }
+     &-gra {
+       margin-left: 100px;
+     }
+   }
+
+   &_paragraph {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 40px;
+     &-ano {
+       &-text {
+         margin-left: 250px;
+       }
+     }
+
+     &-ins {
+       margin-left: 150px;
+     }
+     &-gra {
+       margin-left: 190px;
+     }
+   }
+
+   &_ult {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 40px;
+     &-ano {
+       &-paragraph {
+         margin-left: 250px;
+       }
+     }
+
+     &-paragraph {
+       margin-left: 150px;
+     }
+     &-info {
+       margin-left: 190px;
+     }
+   }
+}
+
+@media screen and (max-width: 800px) {
+  .article {
+
+      &_title {
+        margin-top: 75px;
+        margin-left: 45px;
+        margin-bottom: 40px;
+      }
+
+     &_information {
+       flex-direction: row;
+       margin-bottom: 50px;
+
+       &-title {
+         margin-left: 100px;
+         margin-right: 10px;
+       }
+     }
+
+     &_info {
+       flex-direction: column;
+       margin-bottom: 40px;
+       &-ano {
+         &-container {
+           margin-left: 20px;
+
+         }
+       }
+
+       &-ins {
+         margin-left: 50px;
+       }
+       &-gra {
+         margin-left: 50px;
+       }
+     }
+
+     &_paragraph {
+       flex-direction: column;
+       margin-bottom: 40px;
+       &-ano {
+         &-text {
+           margin-left: 20px;
+         }
+       }
+
+       &-ins {
+         margin-left: 50px;
+       }
+       &-gra {
+         margin-left: 50px;
+       }
+     }
+
+     &_ult {
+       flex-direction: column;
+       margin-bottom: 40px;
+       &-ano {
+         &-paragraph {
+           margin-left: 20px;
+         }
+       }
+
+       &-paragraph {
+         margin-left: 50px;
+       }
+       &-info {
+         margin-left: 50px;
+       }
+     }
+  }
+}
