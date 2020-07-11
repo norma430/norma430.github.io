@@ -1,5 +1,5 @@
 {
-  "name": "norma430.github.io",
+  "name": "norma-chavarria.github.io",
   "version": "1.0.0",
   "description": "Portafolio",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/norma430/norma430.github.io.git"
+    "url": "git+https://github.com/norma430/norma-chavarria.github.io.git"
   },
   "author": "Norma Chavarria",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/norma430/norma430.github.io/issues"
+    "url": "https://github.com/norma430/norma-chavarria.github.io/issues"
   },
-  "homepage": "https://github.com/norma430/norma430.github.io#readme",
+  "homepage": "https://github.com/norma430/norma-chavarria.github.io#readme",
   "dependencies": {
     "hover.css": "^2.3.2",
     "motion-ui": "^2.0.3",
